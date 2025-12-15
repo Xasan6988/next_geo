@@ -1,0 +1,420 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Germany",
+      "description": "A country in Central Europe known for its rich history, cultural heritage, and technological innovation.",
+      "language": "German",
+      "area": 357592,
+      "population": 83190556,
+      "cities": [
+        {
+          "id": 101,
+          "name": "Berlin",
+          "area": 891.8,
+          "population": 3669491,
+          "yearFounded": 1237
+        },
+        {
+          "id": 102,
+          "name": "Munich",
+          "area": 310.7,
+          "population": 1487708,
+          "yearFounded": 1158
+        },
+        {
+          "id": 103,
+          "name": "Hamburg",
+          "area": 755.2,
+          "population": 1841179,
+          "yearFounded": 808
+        },
+        {
+          "id": 104,
+          "name": "Cologne",
+          "area": 405.2,
+          "population": 1087863,
+          "yearFounded": 38
+        },
+        {
+          "id": 105,
+          "name": "Frankfurt",
+          "area": 248.3,
+          "population": 763380,
+          "yearFounded": 1
+        },
+        {
+          "id": 106,
+          "name": "Stuttgart",
+          "area": 207.3,
+          "population": 634830,
+          "yearFounded": 950
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "description": "An island country in East Asia known for its unique culture, technological advancement, and natural beauty.",
+      "language": "Japanese",
+      "area": 377975,
+      "population": 125584838,
+      "cities": [
+        {
+          "id": 201,
+          "name": "Tokyo",
+          "area": 2194,
+          "population": 13929286,
+          "yearFounded": 1457
+        },
+        {
+          "id": 202,
+          "name": "Kyoto",
+          "area": 827.9,
+          "population": 1464890,
+          "yearFounded": 794
+        },
+        {
+          "id": 203,
+          "name": "Osaka",
+          "area": 225.2,
+          "population": 2725006,
+          "yearFounded": 1889
+        },
+        {
+          "id": 204,
+          "name": "Yokohama",
+          "area": 437.4,
+          "population": 3774169,
+          "yearFounded": 1859
+        },
+        {
+          "id": 205,
+          "name": "Sapporo",
+          "area": 1121.1,
+          "population": 1973117,
+          "yearFounded": 1868
+        },
+        {
+          "id": 206,
+          "name": "Nagoya",
+          "area": 326.4,
+          "population": 2331127,
+          "yearFounded": 1612
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Canada",
+      "description": "A North American country known for its vast wilderness, multicultural society, and high quality of life.",
+      "language": "English, French",
+      "area": 9984670,
+      "population": 38005238,
+      "cities": [
+        {
+          "id": 301,
+          "name": "Toronto",
+          "area": 630.2,
+          "population": 2731571,
+          "yearFounded": 1793
+        },
+        {
+          "id": 302,
+          "name": "Vancouver",
+          "area": 115,
+          "population": 631486,
+          "yearFounded": 1886
+        },
+        {
+          "id": 303,
+          "name": "Montreal",
+          "area": 431.5,
+          "population": 1704694,
+          "yearFounded": 1642
+        },
+        {
+          "id": 304,
+          "name": "Calgary",
+          "area": 825.3,
+          "population": 1336000,
+          "yearFounded": 1875
+        },
+        {
+          "id": 305,
+          "name": "Ottawa",
+          "area": 2790.2,
+          "population": 994837,
+          "yearFounded": 1826
+        },
+        {
+          "id": 306,
+          "name": "Edmonton",
+          "area": 767.8,
+          "population": 1010899,
+          "yearFounded": 1795
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Italy",
+      "description": "A Southern European country famous for its ancient history, Renaissance art, and culinary tradition.",
+      "language": "Italian",
+      "area": 301340,
+      "population": 59240329,
+      "cities": [
+        {
+          "id": 401,
+          "name": "Rome",
+          "area": 1285,
+          "population": 2870493,
+          "yearFounded": 753
+        },
+        {
+          "id": 402,
+          "name": "Milan",
+          "area": 181.8,
+          "population": 1378689,
+          "yearFounded": 400
+        },
+        {
+          "id": 403,
+          "name": "Naples",
+          "area": 119,
+          "population": 966144,
+          "yearFounded": 470
+        },
+        {
+          "id": 404,
+          "name": "Turin",
+          "area": 130.2,
+          "population": 886837,
+          "yearFounded": 28
+        },
+        {
+          "id": 405,
+          "name": "Florence",
+          "area": 102.4,
+          "population": 382258,
+          "yearFounded": 59
+        },
+        {
+          "id": 406,
+          "name": "Venice",
+          "area": 414.6,
+          "population": 258685,
+          "yearFounded": 421
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Brazil",
+      "description": "The largest country in South America, known for its Amazon rainforest, vibrant culture, and football.",
+      "language": "Portuguese",
+      "area": 8515767,
+      "population": 213993437,
+      "cities": [
+        {
+          "id": 501,
+          "name": "São Paulo",
+          "area": 1521,
+          "population": 12325232,
+          "yearFounded": 1554
+        },
+        {
+          "id": 502,
+          "name": "Rio de Janeiro",
+          "area": 1224.6,
+          "population": 6747815,
+          "yearFounded": 1565
+        },
+        {
+          "id": 503,
+          "name": "Brasília",
+          "area": 5802,
+          "population": 3055149,
+          "yearFounded": 1960
+        },
+        {
+          "id": 504,
+          "name": "Salvador",
+          "area": 693.8,
+          "population": 2886698,
+          "yearFounded": 1549
+        },
+        {
+          "id": 505,
+          "name": "Fortaleza",
+          "area": 314.9,
+          "population": 2686612,
+          "yearFounded": 1726
+        },
+        {
+          "id": 506,
+          "name": "Belo Horizonte",
+          "area": 331.4,
+          "population": 2523794,
+          "yearFounded": 1897
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Australia",
+      "description": "A country and continent surrounded by the Indian and Pacific oceans, known for its unique wildlife and landscapes.",
+      "language": "English",
+      "area": 7692024,
+      "population": 25788215,
+      "cities": [
+        {
+          "id": 601,
+          "name": "Sydney",
+          "area": 12367.7,
+          "population": 5312163,
+          "yearFounded": 1788
+        },
+        {
+          "id": 602,
+          "name": "Melbourne",
+          "area": 9990.5,
+          "population": 5078193,
+          "yearFounded": 1835
+        },
+        {
+          "id": 603,
+          "name": "Brisbane",
+          "area": 15842,
+          "population": 2566000,
+          "yearFounded": 1824
+        },
+        {
+          "id": 604,
+          "name": "Perth",
+          "area": 6417.9,
+          "population": 2141147,
+          "yearFounded": 1829
+        },
+        {
+          "id": 605,
+          "name": "Adelaide",
+          "area": 3257.7,
+          "population": 1359640,
+          "yearFounded": 1836
+        },
+        {
+          "id": 606,
+          "name": "Canberra",
+          "area": 814.2,
+          "population": 452497,
+          "yearFounded": 1913
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Egypt",
+      "description": "A transcontinental country in North Africa known for its ancient civilization and monuments like the Great Pyramids.",
+      "language": "Arabic",
+      "area": 1002450,
+      "population": 104258327,
+      "cities": [
+        {
+          "id": 701,
+          "name": "Cairo",
+          "area": 3085.1,
+          "population": 9735000,
+          "yearFounded": 969
+        },
+        {
+          "id": 702,
+          "name": "Alexandria",
+          "area": 2679,
+          "population": 5200000,
+          "yearFounded": 331
+        },
+        {
+          "id": 703,
+          "name": "Giza",
+          "area": 187.1,
+          "population": 4343000,
+          "yearFounded": 642
+        },
+        {
+          "id": 704,
+          "name": "Shubra El Kheima",
+          "area": 270,
+          "population": 1150000,
+          "yearFounded": 1830
+        },
+        {
+          "id": 705,
+          "name": "Port Said",
+          "area": 1351,
+          "population": 749371,
+          "yearFounded": 1859
+        },
+        {
+          "id": 706,
+          "name": "Suez",
+          "area": 250.4,
+          "population": 744189,
+          "yearFounded": 1859
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "South Korea",
+      "description": "An East Asian nation on the southern half of the Korean Peninsula, known for high-tech cities and pop culture.",
+      "language": "Korean",
+      "area": 100363,
+      "population": 51780579,
+      "cities": [
+        {
+          "id": 801,
+          "name": "Seoul",
+          "area": 605.2,
+          "population": 9776000,
+          "yearFounded": 18
+        },
+        {
+          "id": 802,
+          "name": "Busan",
+          "area": 769.9,
+          "population": 3416000,
+          "yearFounded": 15
+        },
+        {
+          "id": 803,
+          "name": "Incheon",
+          "area": 1062.6,
+          "population": 2933000,
+          "yearFounded": 1883
+        },
+        {
+          "id": 804,
+          "name": "Daegu",
+          "area": 884.2,
+          "population": 2423000,
+          "yearFounded": 0
+        },
+        {
+          "id": 805,
+          "name": "Daejeon",
+          "area": 539.8,
+          "population": 1473000,
+          "yearFounded": 1935
+        },
+        {
+          "id": 806,
+          "name": "Gwangju",
+          "area": 501.2,
+          "population": 1469000,
+          "yearFounded": 57
+        }
+      ]
+    }
+  ]
+}
