@@ -11,6 +11,8 @@ export default function Countries() {
       <h2>Countries</h2>
 
       <ul>{countriesList}</ul>
+
+      <Link href="/">Home</Link>
     </div>
 
   )

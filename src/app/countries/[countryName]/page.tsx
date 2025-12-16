@@ -25,6 +25,8 @@ export default async function Page({ params }: ICountryParams) {
     <div>
       <h1>{countryName}</h1>
       <ul>{citiesList}</ul>
+
+      <Link href="/countries">Back to countries</Link>
     </div>
   )
 }
