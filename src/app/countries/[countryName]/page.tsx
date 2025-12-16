@@ -9,15 +9,17 @@ interface ICountryParams {
 export default async function Page({ params }: ICountryParams) {
   const { countryName } = await params
 
-  const country = countries?.countries?.find((country) => country?.name === countryName);
+  const country = countries?.countries
+    ?.find((country) => country?.name === decodeURIComponent(countryName));
 
   if (!country) return notFound();
 
-  const citiesList = country?.cities?.map((city) => <li key={city?.id}>
-    <Link href={`/countries/${countryName}/city/${city?.name}`}>
-      {city?.name}
-    </Link>
-  </li>);
+  const citiesList = country?.cities
+    ?.map((city) => <li key={city?.id}>
+      <Link href={`/countries/${countryName}/city/${city?.name}`}>
+        {city?.name}
+      </Link>
+    </li>);
 
   return (
     <div>

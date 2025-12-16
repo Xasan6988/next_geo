@@ -8,7 +8,7 @@ export default function Countries() {
 
   return (
     <div>
-      <h1>Countries</h1>
+      <h2>Countries</h2>
 
       <ul>{countriesList}</ul>
     </div>
